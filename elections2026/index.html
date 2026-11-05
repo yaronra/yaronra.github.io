@@ -1,0 +1,876 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>אטלס הקלפיות 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@500;700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+Hebrew:wght@400;500;600&display=swap">
+
+<style>
+  /* --- supplied by the Artifact runtime; needed when served as a plain page --- */
+  img { max-width: 100% }
+  [hidden] { display: none !important }
+
+  :root {
+    color-scheme: light;
+    direction: rtl;
+    --paper: #faf8f4;
+    --surface: #ffffff;
+    --ink: #1b1916;
+    --ink-2: #423c35;
+    --muted: #6d665d;
+    --rule: #e4dfd6;
+    --rule-strong: #cfc8bb;
+    --party: #b3202c;
+    --city: #2a78d6;
+    --chip: #f1ece3;
+    --focus: #2a78d6;
+    --shadow: 0 1px 2px rgba(40, 32, 20, .06), 0 8px 24px -16px rgba(40, 32, 20, .3);
+
+    --display: "Frank Ruhl Libre", "Noto Serif Hebrew", Georgia, serif;
+    --body: "IBM Plex Sans Hebrew", "Noto Sans Hebrew", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    --mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      color-scheme: dark;
+      --paper: #181612;
+      --surface: #211f1a;
+      --ink: #f3efe8;
+      --ink-2: #d8d2c7;
+      --muted: #a39b8f;
+      --rule: #332f28;
+      --rule-strong: #4a443a;
+      --party: #e8676d;
+      --city: #6aa8f0;
+      --chip: #2b281f;
+      --focus: #6aa8f0;
+      --shadow: 0 1px 2px rgba(0, 0, 0, .4), 0 10px 30px -18px rgba(0, 0, 0, .8);
+    }
+  }
+
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --paper: #181612;
+    --surface: #211f1a;
+    --ink: #f3efe8;
+    --ink-2: #d8d2c7;
+    --muted: #a39b8f;
+    --rule: #332f28;
+    --rule-strong: #4a443a;
+    --party: #e8676d;
+    --city: #6aa8f0;
+    --chip: #2b281f;
+    --focus: #6aa8f0;
+    --shadow: 0 1px 2px rgba(0, 0, 0, .4), 0 10px 30px -18px rgba(0, 0, 0, .8);
+  }
+
+  * {
+    box-sizing: border-box
+  }
+
+  body {
+    margin: 0;
+    direction: rtl;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--body);
+    font-size: 16.5px;
+    line-height: 1.72;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap {
+    max-width: 1180px;
+    margin-inline: auto;
+    padding-inline: clamp(16px, 4vw, 44px);
+    padding-block: 0
+  }
+
+  .reading {
+    max-width: 62ch
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: var(--display);
+    text-wrap: balance;
+    margin: 0;
+    font-weight: 700
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--focus);
+    outline-offset: 3px;
+    border-radius: 3px
+  }
+
+  @media (prefers-reduced-motion:reduce) {
+    * {
+      animation: none !important;
+      transition: none !important
+    }
+  }
+
+  /* numerals stay left-to-right inside the right-to-left page */
+  .num {
+    direction: ltr;
+    font-family: var(--mono);
+    font-variant-numeric: tabular-nums
+  }
+
+  /* ---------- masthead ---------- */
+  header.masthead {
+    padding-block: clamp(40px, 7vw, 76px) 0
+  }
+
+  .eyebrow {
+    font-family: var(--mono);
+    font-size: 11.5px;
+    letter-spacing: .1em;
+    color: var(--muted);
+    margin: 0 0 18px
+  }
+
+  h1 {
+    font-size: clamp(36px, 5.6vw, 60px);
+    line-height: 1.12;
+    letter-spacing: -.005em
+  }
+
+  .standfirst {
+    font-family: var(--display);
+    font-weight: 500;
+    font-size: clamp(18px, 2.2vw, 21.5px);
+    line-height: 1.62;
+    color: var(--ink-2);
+    margin: 20px 0 0;
+    max-width: 54ch
+  }
+
+  .figures {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+    margin: 36px 0 0;
+    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+  }
+
+  .fig {
+    padding-block: 16px;
+    padding-inline-end: 26px;
+    margin-inline-end: 26px;
+    border-inline-end: 1px solid var(--rule);
+  }
+
+  .fig:last-child {
+    border-inline-end: 0;
+    margin-inline-end: 0;
+    padding-inline-end: 0
+  }
+
+  .fig b {
+    display: block;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: -.02em;
+    text-align: right
+  }
+
+  .fig span {
+    display: block;
+    font-size: 13px;
+    color: var(--muted);
+    margin-top: 2px
+  }
+
+  /* ---------- sections ---------- */
+  section {
+    padding-block: clamp(44px, 6vw, 72px)
+  }
+
+  .rule-top {
+    border-top: 1px solid var(--rule)
+  }
+
+  h2 {
+    font-size: clamp(26px, 3.4vw, 34px);
+    letter-spacing: -.005em;
+    line-height: 1.25
+  }
+
+  .kicker {
+    font-family: var(--mono);
+    font-size: 11.5px;
+    letter-spacing: .1em;
+    color: var(--muted);
+    margin: 0 0 10px
+  }
+
+  p {
+    margin: 16px 0 0
+  }
+
+  .reading p:first-of-type {
+    margin-top: 18px
+  }
+
+  strong {
+    font-weight: 600
+  }
+
+  .sw {
+    display: inline-block;
+    width: .62em;
+    height: .62em;
+    border-radius: 50%;
+    vertical-align: baseline;
+    margin-inline-end: .3em
+  }
+
+  .sw-party {
+    background: var(--party)
+  }
+
+  .sw-city {
+    background: var(--city)
+  }
+
+  /* ---------- chart plate ---------- */
+  .plate {
+    background: #fff;
+    border: 1px solid var(--rule-strong);
+    border-radius: 4px;
+    padding: 10px;
+    box-shadow: var(--shadow);
+    line-height: 0;
+  }
+
+  .plate img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    display: block;
+    border-radius: 2px
+  }
+
+  figure {
+    margin: 28px 0 0
+  }
+
+  figcaption {
+    font-size: 14px;
+    color: var(--muted);
+    margin-top: 12px;
+    line-height: 1.65;
+    max-width: 68ch
+  }
+
+  figcaption b {
+    color: var(--ink-2);
+    font-weight: 600
+  }
+
+  /* ---------- axis read-out ---------- */
+  .axes {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin-top: 36px
+  }
+
+  .axis {
+    border-top: 2px solid var(--ink);
+    padding-top: 14px
+  }
+
+  .axis h3 {
+    font-size: 18px;
+    font-weight: 700
+  }
+
+  .axis h3 .pct {
+    font-family: var(--mono);
+    font-size: 12px;
+    color: var(--muted);
+    font-weight: 400;
+    direction: ltr;
+    display: inline-block
+  }
+
+  .axis p {
+    margin-top: 8px;
+    font-size: 15px;
+    color: var(--ink-2);
+    line-height: 1.68
+  }
+
+  .poles {
+    margin-top: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px
+  }
+
+  .pole {
+    display: flex;
+    gap: 10px;
+    align-items: baseline;
+    font-size: 14px
+  }
+
+  .pole em {
+    font-style: normal;
+    font-family: var(--mono);
+    font-size: 10.5px;
+    letter-spacing: .07em;
+    color: var(--muted);
+    min-width: 4.4em;
+    flex-shrink: 0;
+    padding-top: 2px
+  }
+
+  .pole span {
+    font-weight: 500
+  }
+
+  /* ---------- city browser ---------- */
+  .browser {
+    display: grid;
+    grid-template-columns: 260px minmax(0, 1fr);
+    gap: 28px;
+    margin-top: 30px;
+    align-items: start
+  }
+
+  @media (max-width:860px) {
+    .browser {
+      grid-template-columns: 1fr
+    }
+  }
+
+  .index {
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    background: var(--surface);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    max-height: 74vh
+  }
+
+  @media (max-width:860px) {
+    .index {
+      max-height: 300px
+    }
+  }
+
+  .index .search {
+    padding: 10px;
+    border-bottom: 1px solid var(--rule)
+  }
+
+  #filter {
+    width: 100%;
+    font: inherit;
+    font-size: 14.5px;
+    padding: 8px 10px;
+    color: var(--ink);
+    background: var(--paper);
+    border: 1px solid var(--rule-strong);
+    border-radius: 3px;
+  }
+
+  #filter::placeholder {
+    color: var(--muted)
+  }
+
+  #list {
+    list-style: none;
+    margin: 0;
+    padding: 4px;
+    overflow-y: auto;
+    flex: 1
+  }
+
+  #list li {
+    margin: 0
+  }
+
+  .cityBtn {
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    text-align: start;
+    font: inherit;
+    color: var(--ink);
+    background: none;
+    border: 0;
+    border-radius: 3px;
+    padding: 6px 9px;
+    cursor: pointer;
+  }
+
+  .cityBtn:hover {
+    background: var(--chip)
+  }
+
+  .cityBtn[aria-current="true"] {
+    background: var(--ink);
+    color: var(--paper)
+  }
+
+  .cityBtn[aria-current="true"] .cnt {
+    color: var(--paper);
+    opacity: .7
+  }
+
+  .cname {
+    font-size: 15px;
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+  }
+
+  .cnt {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--muted);
+    direction: ltr
+  }
+
+  .empty {
+    padding: 14px 10px;
+    font-size: 14px;
+    color: var(--muted)
+  }
+
+  .stage {
+    min-width: 0
+  }
+
+  .bar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px 14px;
+    margin-bottom: 14px
+  }
+
+  .cityTitle {
+    font-family: var(--display);
+    font-size: clamp(23px, 3.1vw, 30px);
+    font-weight: 700;
+    margin: 0;
+    line-height: 1.2
+  }
+
+  .badge {
+    font-size: 11.5px;
+    color: var(--muted);
+    border: 1px solid var(--rule-strong);
+    border-radius: 99px;
+    padding: 3px 10px;
+    white-space: nowrap;
+  }
+
+  .spacer {
+    flex: 1
+  }
+
+  .nav {
+    display: flex;
+    align-items: center;
+    gap: 6px
+  }
+
+  .nav button {
+    font: inherit;
+    font-size: 14.5px;
+    color: var(--ink);
+    background: var(--surface);
+    border: 1px solid var(--rule-strong);
+    border-radius: 3px;
+    padding: 5px 13px;
+    cursor: pointer;
+  }
+
+  .nav button:hover:not(:disabled) {
+    background: var(--chip)
+  }
+
+  .nav button:disabled {
+    opacity: .4;
+    cursor: default
+  }
+
+  .count {
+    font-family: var(--mono);
+    font-size: 12.5px;
+    color: var(--muted);
+    direction: ltr;
+    font-variant-numeric: tabular-nums;
+    min-width: 5.4em;
+    text-align: center;
+  }
+
+  .stagePlate {
+    position: relative
+  }
+
+  .stagePlate .ov {
+    position: absolute;
+    inset: 10px;
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity .14s ease;
+  }
+
+  .stagePlate.show .ov {
+    opacity: 1
+  }
+
+  .meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+    margin-top: 16px;
+    border-top: 1px solid var(--rule)
+  }
+
+  .meta div {
+    padding-block: 12px 0;
+    padding-inline-end: 22px;
+    margin-inline-end: 22px;
+    border-inline-end: 1px solid var(--rule);
+  }
+
+  .meta div:last-child {
+    border-inline-end: 0;
+    margin-inline-end: 0;
+    padding-inline-end: 0
+  }
+
+  .meta b {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: right
+  }
+
+  .meta span {
+    display: block;
+    font-size: 12.5px;
+    color: var(--muted)
+  }
+
+  .gauge {
+    direction: ltr;
+    width: 104px;
+    height: 5px;
+    background: var(--chip);
+    border-radius: 99px;
+    position: relative;
+    margin-top: 8px;
+  }
+
+  .gauge i {
+    position: absolute;
+    top: -2.5px;
+    width: 3px;
+    height: 10px;
+    border-radius: 2px;
+    background: var(--city);
+    transform: translateX(-1.5px)
+  }
+
+  .gauge u {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background: var(--rule-strong);
+    left: 50%
+  }
+
+  .toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 14px;
+    color: var(--ink-2);
+    cursor: pointer;
+    user-select: none
+  }
+
+  .toggle input {
+    accent-color: var(--party);
+    width: 15px;
+    height: 15px;
+    margin: 0;
+    cursor: pointer
+  }
+
+  .tail {
+    padding-block: 0 60px
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="masthead">
+    <p class="eyebrow">בחירות 2026 · ניתוח רכיבים ראשיים</p>
+    <h1>אטלס הקלפיות</h1>
+    <p class="standfirst">
+      כל קלפי בישראל, ממוקמת לפי האופן בו הצביעה.
+      שני צירים שנגזרים מן ההצבעה עצמה מסדרים את המדינה לכדי צורה — ולכל יישוב יש בה פינה משלו.
+    </p>
+
+    <div class="figures">
+      <div class="fig"><b class="num">12,880</b><span>קלפיות</span></div>
+      <div class="fig"><b class="num">36</b><span>רשימות בפתק</span></div>
+      <div class="fig"><b class="num">19.9%</b><span>מהשונות בשני צירים</span></div>
+      <div class="fig"><b class="num">100</b><span>יישובים בתרשימים</span></div>
+    </div>
+  </header>
+
+  <section class="rule-top">
+    <div class="reading">
+      <p class="kicker">מה רואים כאן</p>
+      <h2>נקודה אחת לכל קלפי</h2>
+      <p>
+        כל קלפי בישראל מדווחת על ספירה נפרדת משלה, ולכן אפשר לתאר כל אחת מהן לפי
+        <strong>שיעור הקולות הכשרים</strong> שקיבלה בה כל אחת מ־36 הרשימות — 36 מספרים לכל קלפי.
+        אלה יותר מדי ממדים מכדי להסתכל עליהם, ורובם חוזרים זה על זה: בקלפיות שבהן
+        ש״ס מצליחה, גם יהדות התורה מצליחה.
+      </p>
+      <p>
+        ניתוח רכיבים ראשיים (PCA) מאתר את הכיוונים שבהם הקלפיות נבדלות זו מזו יותר מכול, ומאפשר
+        להשאיר רק את שני החזקים שבהם. קלפיות שהצביעו דומה נוחתות זו לצד זו; קלפיות שהצביעו
+        אחרת לגמרי נוחתות הרחק זו מזו. איש לא סיפר לשיטה דבר על גאוגרפיה, על דת או על גושים —
+        המבנה נובע רק מחשבון הפתקים.
+      </p>
+      <p>
+        נכללות רק קלפיות שבהן נספרו לפחות 100 קולות כשרים, 12,880 מתוך 12,926
+        קלפיות.
+      </p>
+    </div>
+
+    <figure>
+      <div class="plate">
+        <img src="pca_main.png" width="1100" height="1100"
+          alt="תרשים פיזור של 12,880 קלפיות לפי שני הרכיבים הראשיים, ובו שמות שלוש עשרה רשימות במיקומן.">
+      </div>
+      <figcaption>
+        <b>הענן האפור הוא הקלפיות</b> — כל ה-12,880, נקודה לכל אחת.
+        <b><span class="sw sw-party"></span>הסימונים האדומים הם המפלגות</b>, ממוקמים לפי המשקל שלהן
+        בכל ציר. אפשר לקרוא אותם ככיווני מצפן.
+        קלפי נוטה אל עבר סימון של מפלגה ככל שהמפלגה לוקחת נתח גדול יותר מקולותיה, ולכן
+        הזרועות שיוצאות מן הענן הן המקומות שמצביעים בהם כמעט רק למפלגה אחת.
+      </figcaption>
+    </figure>
+
+    <div class="axes">
+      <div class="axis">
+        <h3>הציר האנכי — מגזרי מול כללי <span class="pct">11.2%</span></h3>
+        <p>
+          המפלגות החרדיות והערביות יושבות יחד בתחתית, רחוקות זו מזו פוליטית אך דומות בדבר
+          אחד: הקלפיות שלהן מצביעות כמעט רק למפלגות המגזר. בחלק העליון הקולות מתפזרים בין מפלגות
+          רבות יותר. הציר הזה עוסק פחות באידאולוגיה ויותר במידת הריכוזיות של ההצבעה בקלפי.
+        </p>
+        <div class="poles">
+          <div class="pole"><em>למטה</em><span>יהדות התורה · ש״ס · הרשימה המשותפת · רע״מ</span></div>
+          <div class="pole"><em>למעלה</em><span>ביחד · ישר · מילואימניקים</span></div>
+        </div>
+      </div>
+      <div class="axis">
+        <h3>הציר האופקי — ימין ודת מול שמאל וערבים <span class="pct">8.8%</span></h3>
+        <p>
+          הציר הפוליטי המוכר. הוא זה שמפריד בין שתי הזרועות התחתונות: הזרוע הערבית
+          נמתחת שמאלה, הזרוע החרדית ימינה.
+        </p>
+        <div class="poles">
+          <div class="pole"><em>בשמאל</em><span>הרשימה המשותפת · הדמוקרטים · רע״מ</span></div>
+          <div class="pole"><em>בימין</em><span>עוצמה יהודית · ש״ס · הליכוד</span></div>
+        </div>
+      </div>
+    </div>
+
+    <p class="reading" style="margin-top:24px; font-size:14.5px; color:var(--muted)">
+      שני הצירים האלה נושאים יחד 19.9% מן השונות שבין הקלפיות — כחמישית ממנה. ארבע החמישיות
+      הנותרות שוכנות בצירים שאינם מצוירים כאן, ולכן התרשים מראה את הפרוסה החזקה ביותר
+      של המבנה, לא את כולו.
+    </p>
+  </section>
+
+  <section class="rule-top">
+    <p class="kicker">יישוב אחר יישוב</p>
+    <h2>היכן יושב כל יישוב בתוך הצורה</h2>
+    <p class="reading">
+      אותו התרשים מאה פעמים. בכל אחד מהם כל קלפיות המדינה נשארות כרקע, ומוארות
+      רק <b><span class="sw sw-city"></span>הקלפיות של יישוב אחד</b>. אפשר לדפדף במקשי החיצים
+      או לבחור יישוב מן הרשימה.
+    </p>
+
+    <div class="browser">
+      <div class="index">
+        <div class="search">
+          <input id="filter" type="search" placeholder="סינון יישובים…" autocomplete="off" aria-label="סינון יישובים">
+        </div>
+        <ul id="list"></ul>
+      </div>
+
+      <div class="stage">
+        <div class="bar">
+          <h3 class="cityTitle" id="cityName">&nbsp;</h3>
+          <span class="badge" id="cityBadge" hidden>אינו יישוב</span>
+          <span class="spacer"></span>
+          <label class="toggle" for="ovToggle">
+            <input type="checkbox" id="ovToggle" checked>
+            הצגת מיקומי הרשימות
+          </label>
+          <div class="nav">
+            <button type="button" id="prev">הקודם</button>
+            <span class="count" id="count">1 / 100</span>
+            <button type="button" id="next">הבא</button>
+          </div>
+        </div>
+
+        <div class="plate stagePlate" id="stagePlate">
+          <img id="cityImg" src="cities/city_001.png" width="770" height="770" alt="">
+          <img class="ov" id="ovImg" src="party_overlay.png" width="770" height="770" alt="" aria-hidden="true">
+        </div>
+
+        <div class="meta">
+          <div><b class="num" id="mStations">—</b><span>קלפיות</span></div>
+          <div><b class="num" id="mVotes">—</b><span>קולות כשרים</span></div>
+          <div>
+            <b class="num" id="mHoriz">—</b><span>מיקום אופקי ממוצע</span>
+            <div class="gauge"><u></u><i id="gHoriz"></i></div>
+          </div>
+          <div>
+            <b class="num" id="mVert">—</b><span>מיקום אנכי ממוצע</span>
+            <div class="gauge"><u></u><i id="gVert"></i></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="tail"></div>
+</div>
+
+<script>
+  document.documentElement.lang = 'he';
+  document.documentElement.dir = 'rtl';
+
+  const CITIES = [{"i":0,"name":"מעטפות חיצוניות","file":"cities/city_000.png","stations":908,"votes":449357,"horiz":0.0806,"vert":0.1648,"external":true},{"i":1,"name":"תל אביב - יפו","file":"cities/city_001.png","stations":765,"votes":309004,"horiz":-0.0634,"vert":0.258,"external":false},{"i":2,"name":"ירושלים","file":"cities/city_002.png","stations":730,"votes":299077,"horiz":0.1461,"vert":0.006,"external":false},{"i":3,"name":"חיפה","file":"cities/city_003.png","stations":437,"votes":164847,"horiz":-0.0177,"vert":0.1837,"external":false},{"i":4,"name":"ראשון לציון","file":"cities/city_004.png","stations":361,"votes":159205,"horiz":0.0825,"vert":0.2538,"external":false},{"i":5,"name":"נתניה","file":"cities/city_005.png","stations":329,"votes":129324,"horiz":0.1559,"vert":0.1951,"external":false},{"i":6,"name":"פתח תקווה","file":"cities/city_006.png","stations":327,"votes":149996,"horiz":0.1117,"vert":0.1998,"external":false},{"i":7,"name":"אשדוד","file":"cities/city_007.png","stations":312,"votes":127121,"horiz":0.1728,"vert":0.1302,"external":false},{"i":8,"name":"באר שבע","file":"cities/city_008.png","stations":289,"votes":113940,"horiz":0.1748,"vert":0.1875,"external":false},{"i":9,"name":"חולון","file":"cities/city_009.png","stations":260,"votes":111064,"horiz":0.1209,"vert":0.2187,"external":false},{"i":10,"name":"רמת גן","file":"cities/city_010.png","stations":236,"votes":106321,"horiz":-0.0125,"vert":0.2781,"external":false},{"i":11,"name":"אשקלון","file":"cities/city_011.png","stations":223,"votes":94137,"horiz":0.1901,"vert":0.1867,"external":false},{"i":12,"name":"בת ים","file":"cities/city_012.png","stations":216,"votes":71087,"horiz":0.1261,"vert":0.2106,"external":false},{"i":13,"name":"בני ברק","file":"cities/city_013.png","stations":198,"votes":97462,"horiz":0.2232,"vert":-0.2168,"external":false},{"i":14,"name":"רחובות","file":"cities/city_014.png","stations":187,"votes":86319,"horiz":0.0884,"vert":0.2112,"external":false},{"i":15,"name":"הרצליה","file":"cities/city_015.png","stations":157,"votes":68906,"horiz":-0.0208,"vert":0.2884,"external":false},{"i":16,"name":"בית שמש","file":"cities/city_016.png","stations":154,"votes":65339,"horiz":0.2287,"vert":-0.0996,"external":false},{"i":17,"name":"כפר סבא","file":"cities/city_017.png","stations":138,"votes":62920,"horiz":-0.0118,"vert":0.2808,"external":false},{"i":18,"name":"מודיעין-מכבים-רעות","file":"cities/city_018.png","stations":132,"votes":63276,"horiz":0.013,"vert":0.2768,"external":false},{"i":19,"name":"חדרה","file":"cities/city_019.png","stations":130,"votes":58351,"horiz":0.1356,"vert":0.2121,"external":false},{"i":20,"name":"רעננה","file":"cities/city_020.png","stations":118,"votes":53414,"horiz":0.0145,"vert":0.2674,"external":false},{"i":21,"name":"לוד","file":"cities/city_021.png","stations":110,"votes":45317,"horiz":0.0874,"vert":0.0458,"external":false},{"i":22,"name":"רמלה","file":"cities/city_022.png","stations":105,"votes":44211,"horiz":0.1212,"vert":0.0791,"external":false},{"i":23,"name":"נהריה","file":"cities/city_023.png","stations":100,"votes":41347,"horiz":0.1389,"vert":0.2153,"external":false},{"i":24,"name":"נצרת","file":"cities/city_024.png","stations":94,"votes":44260,"horiz":-0.2898,"vert":-0.2323,"external":false},{"i":25,"name":"קרית גת","file":"cities/city_025.png","stations":90,"votes":37231,"horiz":0.2221,"vert":0.1287,"external":false},{"i":26,"name":"ראש העין","file":"cities/city_026.png","stations":90,"votes":44447,"horiz":0.1252,"vert":0.2139,"external":false},{"i":27,"name":"אילת","file":"cities/city_027.png","stations":88,"votes":27546,"horiz":0.1415,"vert":0.2155,"external":false},{"i":28,"name":"קרית אתא","file":"cities/city_028.png","stations":82,"votes":36308,"horiz":0.1776,"vert":0.189,"external":false},{"i":29,"name":"הוד השרון","file":"cities/city_029.png","stations":81,"votes":41771,"horiz":-0.0473,"vert":0.3023,"external":false},{"i":30,"name":"עפולה","file":"cities/city_030.png","stations":81,"votes":35586,"horiz":0.1803,"vert":0.1506,"external":false},{"i":31,"name":"גבעתיים","file":"cities/city_031.png","stations":80,"votes":37579,"horiz":-0.0784,"vert":0.3045,"external":false},{"i":32,"name":"עכו","file":"cities/city_032.png","stations":78,"votes":30540,"horiz":0.0243,"vert":0.0253,"external":false},{"i":33,"name":"נוף הגליל","file":"cities/city_033.png","stations":73,"votes":25961,"horiz":-0.0209,"vert":0.0385,"external":false},{"i":34,"name":"כרמיאל","file":"cities/city_034.png","stations":72,"votes":27534,"horiz":0.078,"vert":0.2055,"external":false},{"i":35,"name":"רהט","file":"cities/city_035.png","stations":71,"votes":37770,"horiz":-0.2737,"vert":-0.2423,"external":false},{"i":36,"name":"קרית מוצקין","file":"cities/city_036.png","stations":70,"votes":30500,"horiz":0.0823,"vert":0.2572,"external":false},{"i":37,"name":"טבריה","file":"cities/city_037.png","stations":66,"votes":25323,"horiz":0.2375,"vert":0.0975,"external":false},{"i":38,"name":"יבנה","file":"cities/city_038.png","stations":65,"votes":31802,"horiz":0.1515,"vert":0.2137,"external":false},{"i":39,"name":"קרית ביאליק","file":"cities/city_039.png","stations":64,"votes":27393,"horiz":0.0887,"vert":0.2507,"external":false},{"i":40,"name":"רמת השרון","file":"cities/city_040.png","stations":64,"votes":31011,"horiz":-0.0746,"vert":0.2995,"external":false},{"i":41,"name":"אום אל-פחם","file":"cities/city_041.png","stations":63,"votes":33532,"horiz":-0.302,"vert":-0.2576,"external":false},{"i":42,"name":"קרית ים","file":"cities/city_042.png","stations":63,"votes":24486,"horiz":0.1462,"vert":0.2229,"external":false},{"i":43,"name":"מודיעין עילית","file":"cities/city_043.png","stations":62,"votes":32938,"horiz":0.2022,"vert":-0.2586,"external":false},{"i":44,"name":"קרית אונו","file":"cities/city_044.png","stations":60,"votes":28587,"horiz":-0.0239,"vert":0.2929,"external":false},{"i":45,"name":"נס ציונה","file":"cities/city_045.png","stations":59,"votes":28814,"horiz":0.0097,"vert":0.2817,"external":false},{"i":46,"name":"נתיבות","file":"cities/city_046.png","stations":59,"votes":28354,"horiz":0.3013,"vert":0.0171,"external":false},{"i":47,"name":"פרדס חנה-כרכור","file":"cities/city_047.png","stations":56,"votes":27357,"horiz":0.0305,"vert":0.2502,"external":false},{"i":48,"name":"ביתר עילית","file":"cities/city_048.png","stations":55,"votes":28028,"horiz":0.2321,"vert":-0.2228,"external":false},{"i":49,"name":"דימונה","file":"cities/city_049.png","stations":54,"votes":20976,"horiz":0.2393,"vert":0.1507,"external":false},{"i":50,"name":"אור יהודה","file":"cities/city_050.png","stations":52,"votes":23733,"horiz":0.2073,"vert":0.1739,"external":false},{"i":51,"name":"שפרעם","file":"cities/city_051.png","stations":49,"votes":25231,"horiz":-0.2474,"vert":-0.1589,"external":false},{"i":52,"name":"מעלה אדומים","file":"cities/city_052.png","stations":48,"votes":21274,"horiz":0.2399,"vert":0.1583,"external":false},{"i":53,"name":"אופקים","file":"cities/city_053.png","stations":47,"votes":20555,"horiz":0.2519,"vert":0.0634,"external":false},{"i":54,"name":"טייבה","file":"cities/city_054.png","stations":46,"votes":26942,"horiz":-0.2998,"vert":-0.2522,"external":false},{"i":55,"name":"שדרות","file":"cities/city_055.png","stations":46,"votes":20472,"horiz":0.2477,"vert":0.1473,"external":false},{"i":56,"name":"יהוד-מונוסון","file":"cities/city_056.png","stations":43,"votes":19502,"horiz":0.0699,"vert":0.2613,"external":false},{"i":57,"name":"אלעד","file":"cities/city_057.png","stations":42,"votes":22902,"horiz":0.2745,"vert":-0.1763,"external":false},{"i":58,"name":"טירת כרמל","file":"cities/city_058.png","stations":41,"votes":18237,"horiz":0.1941,"vert":0.1994,"external":false},{"i":59,"name":"צפת","file":"cities/city_059.png","stations":41,"votes":16021,"horiz":0.2555,"vert":0.0141,"external":false},{"i":60,"name":"באר יעקב","file":"cities/city_060.png","stations":39,"votes":19829,"horiz":0.1286,"vert":0.2298,"external":false},{"i":61,"name":"טמרה","file":"cities/city_061.png","stations":39,"votes":22476,"horiz":-0.2895,"vert":-0.2442,"external":false},{"i":62,"name":"מגדל העמק","file":"cities/city_062.png","stations":39,"votes":16173,"horiz":0.2028,"vert":0.1585,"external":false},{"i":63,"name":"נשר","file":"cities/city_063.png","stations":37,"votes":13914,"horiz":0.0802,"vert":0.2373,"external":false},{"i":64,"name":"גבעת שמואל","file":"cities/city_064.png","stations":36,"votes":17944,"horiz":0.1143,"vert":0.2014,"external":false},{"i":65,"name":"סחנין","file":"cities/city_065.png","stations":36,"votes":22004,"horiz":-0.2928,"vert":-0.2463,"external":false},{"i":66,"name":"ערד","file":"cities/city_066.png","stations":36,"votes":14806,"horiz":0.0942,"vert":0.0535,"external":false},{"i":67,"name":"גדרה","file":"cities/city_067.png","stations":35,"votes":17462,"horiz":0.0923,"vert":0.2441,"external":false},{"i":68,"name":"חריש","file":"cities/city_068.png","stations":35,"votes":17309,"horiz":0.1692,"vert":0.1391,"external":false},{"i":69,"name":"אור עקיבא","file":"cities/city_069.png","stations":34,"votes":14442,"horiz":0.188,"vert":0.1961,"external":false},{"i":70,"name":"יקנעם עילית","file":"cities/city_070.png","stations":34,"votes":15200,"horiz":0.0919,"vert":0.2458,"external":false},{"i":71,"name":"כפר יונה","file":"cities/city_071.png","stations":34,"votes":16672,"horiz":0.0846,"vert":0.2524,"external":false},{"i":72,"name":"מבשרת ציון","file":"cities/city_072.png","stations":34,"votes":16322,"horiz":0.0838,"vert":0.2303,"external":false},{"i":73,"name":"מעלות-תרשיחא","file":"cities/city_073.png","stations":33,"votes":13632,"horiz":0.0647,"vert":0.0952,"external":false},{"i":74,"name":"קרית מלאכי","file":"cities/city_074.png","stations":33,"votes":14509,"horiz":0.2855,"vert":0.11,"external":false},{"i":75,"name":"קרית שמונה","file":"cities/city_075.png","stations":32,"votes":12259,"horiz":0.2103,"vert":0.1789,"external":false},{"i":76,"name":"שוהם","file":"cities/city_076.png","stations":32,"votes":15097,"horiz":-0.0054,"vert":0.2932,"external":false},{"i":77,"name":"באקה אל-גרביה","file":"cities/city_077.png","stations":31,"votes":18034,"horiz":-0.2955,"vert":-0.2524,"external":false},{"i":78,"name":"טירה","file":"cities/city_078.png","stations":31,"votes":16912,"horiz":-0.2947,"vert":-0.2404,"external":false},{"i":79,"name":"גן יבנה","file":"cities/city_079.png","stations":30,"votes":15610,"horiz":0.1267,"vert":0.2366,"external":false},{"i":80,"name":"גני תקווה","file":"cities/city_080.png","stations":30,"votes":14994,"horiz":0.0022,"vert":0.2684,"external":false},{"i":81,"name":"זכרון יעקב","file":"cities/city_081.png","stations":30,"votes":14995,"horiz":-0.012,"vert":0.2443,"external":false},{"i":82,"name":"קרית טבעון","file":"cities/city_082.png","stations":29,"votes":12041,"horiz":-0.0941,"vert":0.291,"external":false},{"i":83,"name":"אריאל","file":"cities/city_083.png","stations":28,"votes":11510,"horiz":0.1712,"vert":0.1995,"external":false},{"i":84,"name":"עראבה","file":"cities/city_084.png","stations":28,"votes":16137,"horiz":-0.2949,"vert":-0.2528,"external":false},{"i":85,"name":"קדימה-צורן","file":"cities/city_085.png","stations":27,"votes":13597,"horiz":0.0054,"vert":0.2759,"external":false},{"i":86,"name":"בית שאן","file":"cities/city_086.png","stations":26,"votes":11612,"horiz":0.2825,"vert":0.1136,"external":false},{"i":87,"name":"כפר קאסם","file":"cities/city_087.png","stations":25,"votes":15616,"horiz":-0.2791,"vert":-0.2371,"external":false},{"i":88,"name":"מגאר","file":"cities/city_088.png","stations":25,"votes":11618,"horiz":-0.1216,"vert":0.0515,"external":false},{"i":89,"name":"כפר כנא","file":"cities/city_089.png","stations":24,"votes":14010,"horiz":-0.2931,"vert":-0.2451,"external":false},{"i":90,"name":"ערערה","file":"cities/city_090.png","stations":24,"votes":12266,"horiz":-0.2975,"vert":-0.251,"external":false},{"i":91,"name":"קלנסווה","file":"cities/city_091.png","stations":24,"votes":13425,"horiz":-0.2863,"vert":-0.2403,"external":false},{"i":92,"name":"כפר מנדא","file":"cities/city_092.png","stations":23,"votes":13031,"horiz":-0.2875,"vert":-0.2467,"external":false},{"i":93,"name":"גבעת זאב","file":"cities/city_093.png","stations":22,"votes":11446,"horiz":0.2541,"vert":-0.0168,"external":false},{"i":94,"name":"גדיידה-מכר","file":"cities/city_094.png","stations":22,"votes":12678,"horiz":-0.2948,"vert":-0.2477,"external":false},{"i":95,"name":"כפר קרע","file":"cities/city_095.png","stations":22,"votes":12461,"horiz":-0.2888,"vert":-0.2449,"external":false},{"i":96,"name":"אבן יהודה","file":"cities/city_096.png","stations":20,"votes":9160,"horiz":-0.0446,"vert":0.3036,"external":false},{"i":97,"name":"דאלית אל-כרמל","file":"cities/city_097.png","stations":20,"votes":9457,"horiz":-0.0881,"vert":0.2908,"external":false},{"i":98,"name":"יפיע","file":"cities/city_098.png","stations":20,"votes":11614,"horiz":-0.2834,"vert":-0.2272,"external":false},{"i":99,"name":"ירכא","file":"cities/city_099.png","stations":19,"votes":7652,"horiz":0.0304,"vert":0.2398,"external":false}];
+
+  const fmt = n => n.toLocaleString('en-US');
+
+  const img = document.getElementById('cityImg'),
+    plate = document.getElementById('stagePlate'),
+    listEl = document.getElementById('list'),
+    filterEl = document.getElementById('filter'),
+    nameEl = document.getElementById('cityName'),
+    badgeEl = document.getElementById('cityBadge'),
+    countEl = document.getElementById('count'),
+    prevBtn = document.getElementById('prev'),
+    nextBtn = document.getElementById('next'),
+    ovToggle = document.getElementById('ovToggle');
+
+  /* Hebrew alphabetical order, so final letters sort with their base form. */
+  let collator;
+  try { collator = new Intl.Collator('he'); } catch (e) { collator = { compare: (a, b) => a < b ? -1 : a > b ? 1 : 0 }; }
+  const ALPHA = CITIES.map(c => c.i).sort((a, b) => collator.compare(CITIES[a].name, CITIES[b].name));
+
+  const span = p => [Math.min(...CITIES.map(c => c[p])), Math.max(...CITIES.map(c => c[p]))];
+  const RH = span('horiz'), RV = span('vert');
+  const pos = (v, [a, b]) => ((v - a) / (b - a)) * 100;
+
+  let visible = ALPHA.slice();
+  /* open on the largest real town, so the first look shows a dense, legible case */
+  let cur = CITIES.filter(c => !c.external).sort((a, b) => b.stations - a.stations)[0].i;
+
+  function buildList() {
+    if (!visible.length) { listEl.innerHTML = '<li class="empty">לא נמצא יישוב מתאים.</li>'; return; }
+    listEl.innerHTML = visible.map(i => {
+      const c = CITIES[i];
+      return `<li><button class="cityBtn" type="button" data-i="${i}" aria-current="${i === cur}">` +
+        `<span class="cname">${c.name}</span>` +
+        `<span class="cnt">${c.stations}</span></button></li>`;
+    }).join('');
+  }
+
+  function show(i, { scroll = true } = {}) {
+    const c = CITIES[i]; if (!c) return;
+    cur = i;
+    img.src = c.file;
+    img.alt = `הקלפיות של ${c.name} מודגשות על רקע כל קלפיות המדינה.`;
+    nameEl.textContent = c.name;
+    badgeEl.hidden = !c.external;
+    const n = visible.indexOf(i);
+    countEl.textContent = `${n < 0 ? 1 : n + 1} / ${visible.length}`;
+    document.getElementById('mStations').textContent = fmt(c.stations);
+    document.getElementById('mVotes').textContent = fmt(c.votes);
+    document.getElementById('mHoriz').textContent = (c.horiz >= 0 ? '+' : '−') + Math.abs(c.horiz).toFixed(3);
+    document.getElementById('mVert').textContent = (c.vert >= 0 ? '+' : '−') + Math.abs(c.vert).toFixed(3);
+    document.getElementById('gHoriz').style.left = pos(c.horiz, RH).toFixed(1) + '%';
+    document.getElementById('gVert').style.left = pos(c.vert, RV).toFixed(1) + '%';
+
+    listEl.querySelectorAll('.cityBtn').forEach(b => {
+      const on = +b.dataset.i === i;
+      b.setAttribute('aria-current', on);
+      if (on && scroll) b.scrollIntoView({ block: 'nearest' });
+    });
+    [n - 1, n + 1].forEach(k => { const o = CITIES[visible[k]]; if (o) new Image().src = o.file; });
+    prevBtn.disabled = n <= 0; nextBtn.disabled = n < 0 || n >= visible.length - 1;
+  }
+
+  function step(d) {
+    const n = visible.indexOf(cur) + d;
+    if (n >= 0 && n < visible.length) show(visible[n]);
+  }
+
+  listEl.addEventListener('click', e => {
+    const b = e.target.closest('.cityBtn'); if (b) show(+b.dataset.i, { scroll: false });
+  });
+  prevBtn.addEventListener('click', () => step(-1));
+  nextBtn.addEventListener('click', () => step(1));
+  ovToggle.addEventListener('change', () => plate.classList.toggle('show', ovToggle.checked));
+
+  filterEl.addEventListener('input', () => {
+    const q = filterEl.value.trim();
+    visible = ALPHA.filter(i => !q || CITIES[i].name.includes(q));
+    buildList();
+    show(visible.includes(cur) ? cur : (visible[0] ?? cur));
+  });
+
+  /* the page reads right to left, so ArrowRight steps back and ArrowLeft forward */
+  addEventListener('keydown', e => {
+    if (/^(INPUT|TEXTAREA)$/.test(e.target.tagName)) return;
+    const back = e.key === 'ArrowRight' || e.key === 'ArrowUp';
+    const fwd = e.key === 'ArrowLeft' || e.key === 'ArrowDown';
+    if (back || fwd) { e.preventDefault(); step(back ? -1 : 1); }
+  });
+
+  buildList();
+  show(cur, { scroll: false });
+  // read the checkbox rather than forcing it on: the platform restores the
+  // viewer's own setting across a republish
+  plate.classList.toggle('show', ovToggle.checked);
+</script>
+</body>
+</html>
